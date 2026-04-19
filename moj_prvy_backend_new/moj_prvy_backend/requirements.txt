@@ -1,2 +1,4 @@
 Flask
-openai
+groq
+python-dotenv
+gunicorn
