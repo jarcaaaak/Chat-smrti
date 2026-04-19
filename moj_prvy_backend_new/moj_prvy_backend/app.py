@@ -175,4 +175,4 @@ Odpovedaj výhradne v slovenčine. Buď priateľský, prirodzený a historicky p
         return jsonify({"error": f"Chyba: {str(e)}"}), 500
     
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000)), debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000)), debug=False)
